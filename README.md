@@ -10,7 +10,7 @@ This document explains the internal steps involved when the `insmod` command is 
 
 2. **init_module**:
    - Transfers control to the kernel.
-   - Calls the `sys_init_module` function.
+   - Calls the `sys_init_module` (counter part for init_module in kernel) function.
 
 3. **sys_init_module**:
    - Verifies permissions to ensure the user has the right privileges to load the module.
