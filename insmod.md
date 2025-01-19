@@ -1,5 +1,4 @@
-# Linux-Device-Drivers
-# insmod Command Execution Sequence
+# insmod (insERT modULE) Command Execution Sequence
 
 This document explains the internal steps involved when the `insmod` command is used to load a Linux kernel module.
 
