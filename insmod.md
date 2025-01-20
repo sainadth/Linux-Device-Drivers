@@ -2,6 +2,11 @@
 
 This document explains the internal steps involved when the `insmod` command is used to load a Linux kernel module.
 
+## Command Usage
+```bash 
+sudo insmod <module_name.ko>
+```
+
 ## Execution Sequence
 
 1. **insmod**:
