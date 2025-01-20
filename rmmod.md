@@ -2,6 +2,11 @@
 
 This document explains the internal steps involved when the `rmmod` command is used to remove a Linux kernel module.
 
+## Command Usage
+```bash 
+sudo rmmod <module_name>
+```
+
 ## Execution Sequence
 
 1. **rmmod**:
