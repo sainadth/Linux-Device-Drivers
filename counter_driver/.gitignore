@@ -1,4 +1,2 @@
 # Ignore build artifacts 
 /build/
-# Ignore include folder 
-/include/
