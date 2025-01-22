@@ -21,7 +21,7 @@ all:
 
 clean:
 	$(MAKE) -C $(KDIR) M=$(PWD)/$(SRC_DIR) clean
-	rm -rf $(BUILD_DIR)/*
+	rm -rf $(BUILD_DIR)/* $(BUILD_DIR)/.*
 
 # Phony targets
 .PHONY: all clean
