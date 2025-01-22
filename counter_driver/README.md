@@ -4,15 +4,18 @@ This project is a simple virtual counter device driver that interacts with the `
 
 ## Project Structure
 
-counter_driver/ 
+```
+counter_driver/
 ├── Makefile 
-├── src/ 
+├── src/
 │ └── counter_driver.c 
+│ └── Makefile
 ├── include/ 
 │ └── counter_driver.h (if needed) 
 ├── build/ 
 │ └── (compiled .o and .ko files will go here) 
 └── README.md
+```
 
 ## Files
 
